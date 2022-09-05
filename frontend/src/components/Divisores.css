@@ -3,10 +3,16 @@
     font-size: 2.5rem;
     text-align: center;
     margin: 2rem 0 1rem;
+    min-height: 10vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;        
 }
 
-.title .query-text{
-    color: #F7D354
+
+.title{
+  animation: textRotate 1s  
 }
 
 .loop-container{
@@ -47,4 +53,13 @@
     outline: 0;
     height:30px;
     width:285px;
+  }
+
+  @keyframes textRotate {
+    from {
+      transform: rotate(90deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
   }
