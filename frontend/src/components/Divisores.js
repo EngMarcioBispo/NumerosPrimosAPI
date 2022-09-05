@@ -1,7 +1,7 @@
 import './Divisores.css'
 import React, {useEffect, useState} from 'react';
 
-const url = 'http://localhost:3003/divisores/'
+const url = 'https://divisores-primos-api.herokuapp.com/divisores/'
 
 
 export default function Divisores(){
